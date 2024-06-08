@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Food Ordering website</title>
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+  />
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!--custom css file link-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--header section starts -->
+
+    <header>
+        <a href="#" class="logo"><i class="fas-fa-utensils"></i>Daily Grill.</a>
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+    
+    <!-- header section ends-->
+
+    <!-- search form-->
+
+    <form action="" id="search-form">
+        <input type="search" placeholder="Type to search" name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!--home section starts-->
+
+    <section class="home" id="home">
+
+        <div class="swiper home-slider" >
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Dish of the Day</span>
+                        <h3>Fresh Pan Pizza!</h3>
+                        <p>Thin crust,double cheese,farmhouse pizza loaded with veggies
+                        </p>
+                        <a href="#" class="btn">Order now!</a>
+                    </div>
+                    <div class="image">
+                        <img src="pizzapic.jpeg" alt="" width="800" height="600" >
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Dish of the Day</span>
+                        <h3>Noodles!</h3>
+                        <p>with sauchy chilli taste
+                        </p>
+                        <a href="#" class="btn">Order now!</a>
+                    </div>
+                    <div class="image">
+                        <img src="i1.jpg" alt="" width="900" height="600">
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Dish of the Day</span>
+                        <h3>French fries!</h3>
+                        <p>Crispy, shallow baked tasty fries
+                        </p>
+                        <a href="#" class="btn">Order now!</a>
+                    </div>
+                    <div class="image">
+                        <img src="i2.jpg" alt="" width="900" height="600" >
+                    </div>
+
+                </div>
+
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Dish of the Day</span>
+                        <h3>Fresh Patty Burger!</h3>
+                        <p>Filled with delicious veggies with sizzling hot sauce
+                        </p>
+                        <a href="#" class="btn">Order now!</a>
+                    </div>
+                    <div class="image">
+                        <img src="img6.jpg" alt="" width="900" height="600" >
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!--home section ends-->
+
+    <!--Dishes section starts-->
+
+    <section class="dishes" id="dishes">
+        <h3 class="sub-heading">Our dishes!</h3>
+        <h1 class="heading">Popular dishes!</h1>
+
+        <div class="box-container">
+            <div class="box">
+               <a href="#" class="fas fa-heart"></a>
+               <a href="#" class="fas fa-eye"></a>
+               <img src="honey.jpeg" alt="" height="200" width="200">
+               <h3>Delicious!</h3>
+               <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>Rs.389</span>
+            <a href="#" class="btn">Add to cart!</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img6.jpg" alt="" height="200" width="200">
+                <h3>Delicious!</h3>
+                <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+             </div>
+             <span>Rs.472</span>
+             <a href="#" class="btn">Add to cart!</a>
+             </div>
+
+             <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img7.webp" alt="" height="200" width="200">
+                <h3>Delicious!</h3>
+                <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+             </div>
+             <span>Rs.289</span>
+             <a href="#" class="btn">Add to cart!</a>
+             </div>
+
+             <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img8.webp" alt="" height="200" width="200">
+                <h3>Delicious!</h3>
+                <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+             </div>
+             <span>Rs.130</span>
+             <a href="#" class="btn">Add to cart!</a>
+             </div>
+
+             <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img9.png" alt="" height="200" width="200">
+                <h3>Delicious!</h3>
+                <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+             </div>
+             <span>Rs.109</span>
+             <a href="#" class="btn">Add to cart!</a>
+             </div>
+
+             <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img12.jpeg" alt="" height="200" width="200">
+                <h3>Delicious!</h3>
+                <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+             </div>
+             <span>Rs.159</span>
+             <a href="#" class="btn">Add to cart!</a>
+             </div>
+
+             <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img11.webp" alt="" height="200" width="200">
+                <h3>Delicious!</h3>
+                <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+             </div>
+             <span>Rs.189</span>
+             <a href="#" class="btn">Add to cart!</a>
+             </div>
+
+             <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img14.webp" alt="" height="200" width="200">
+                <h3>Delicious!</h3>
+                <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+             </div>
+             <span>Rs.109</span>
+             <a href="#" class="btn">Add to cart!</a>
+             </div>  
+
+
+        </div>
+
+
+    </section>
+    <!--dishes section ends-->
+    <!--about section starts-->
+
+    <section class="about" id="about">
+
+        <h3 class="sub-heading">About us</h3>
+        <h1 class="heading">Why choose us?</h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="img15.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>Best food you'll ever find</h3>
+                <p>We always try our best to provide you delicious food,we love to
+                    see your happy faces!!!!!! We have flavors of ingenious inspiration, authentic taste,
+                    fast delivery partners and kind customers like you!!!! 
+                </p>
+                
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>Free delivary</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>Easy payments</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24*7 services available</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">Learn more</a>
+            </div>
+        </div>
+
+
+    </section>
+    <!--about section ends-->
+
+    <!--menu section starts-->
+    <section class="menu" id="menu">
+        <h3 class="sub-heading">Our menu</h3>
+        <h1 class="heading">Today's Special!</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="img16.png" alt="" height="500" width="500">
+                    <a href="#" class="fas fa-heart"></a>                
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Steam momos</h3>
+                    <p>"Introducing steam momos, the chutney that elevates your happiness to new heights of flavor.
+                         Our handcrafted blend of the finest veggies offers a symphony of taste that awakens your senses with every bite."</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">Rs 120</span>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="ig1.jpeg" alt="" height="400" width="500">
+                    <a href="#" class="fas fa-heart"></a>                
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Pancakes</h3>
+                    <p>"Indulge your senses with our mouthwatering Decadent Chocolate Pancakes. These light and fluffy pancakes are infused with
+                         premium cocoa and generously studded with semi-sweet chocolate chips. A delightful treat for chocolate lovers, these pancakes 
+                         are the ultimate way to start your day."</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">Rs 189</span>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="food3.jpg" alt="" height="400" width="500">
+                    <a href="#" class="fas fa-heart"></a>                
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Grilled Sandwich</h3>
+                    <p>"Savor the moment with our delectable Gourmet Grilled Sandwich. Every bite is a burst of flavor, a symphony of ingredients perfectly harmonized between two slices of toasted artisan bread.
+                         Enjoy the satisfying crunch of the grill and the mouthwatering combination of fresh, high-quality ingredients."</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">Rs 135</span>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="ig3.jpeg" alt="" height="400" width="500">
+                    <a href="#" class="fas fa-heart"></a>                
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Waffles</h3>
+                    <p>"Indulge in pure chocolate bliss with our Decadent Chocolate Waffles. Each bite is a celebration of rich, velvety cocoa combined with the perfect waffle texture. These golden brown waffles are infused with premium chocolate, creating a delightful harmony of flavors that will satisfy your sweet cravings."</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">Rs 165</span>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="food5.jpeg" alt="" height="400" width="500">
+                    <a href="#" class="fas fa-heart"></a>                
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Veg Noodles</h3>
+                    <p>"Satisfy your cravings with our delicious Vegetable Stir-Fried Noodles. This classic Asian dish is a harmonious blend of flavors and textures, featuring a colorful medley of fresh vegetables and perfectly cooked noodles. It's a wholesome and flavorful choice that caters to both your taste buds and your health."</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">Rs 289</span>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="ig5.jpeg" alt="" height="400" width="500">
+                    <a href="#" class="fas fa-heart"></a>                
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Chole Bhature</h3>
+                    <p>"Indulge in the irresistible flavors of India with our Chole Bhature, a classic North Indian delicacy that tantalizes the senses. This dish perfectly combines the spicy and aromatic chickpea curry with the deep-fried, fluffy Bhature, creating a culinary experience that's both comforting and exhilarating."</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">Rs 189</span>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="c1.webp" alt="" height="400" width="500">
+                    <a href="#" class="fas fa-heart"></a>                
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Gulab Jamun</h3>
+                    <p>"Transport your taste buds to India with our exquisite Gulab Jamun, a quintessential Indian dessert that's rich in flavor and history. These golden, syrup-soaked dumplings are a true indulgence, with each bite offering a delectable blend of sweetness and aromatic spices."</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">Rs 139</span>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="food8.webp" alt="" height="400" width="500">
+                    <a href="#" class="fas fa-heart"></a>                
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Chocolate Muffin</h3>
+                    <p>"Treat yourself to pure decadence with our Chocolate Muffin. Baked to perfection, this muffin is a chocolate lover's dream come true. The rich, moist interior is generously studded with velvety chocolate chips, creating an exquisite harmony of flavors and textures that will satisfy your sweet cravings."</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">Rs 99</span>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="c3.jpeg" alt="" height="400" width="500">
+                    <a href="#" class="fas fa-heart"></a>                
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Orange juice</h3>
+                    <p>"Start your day with a burst of natural vitality by enjoying our Freshly Squeezed Orange Juice. This revitalizing classic is a refreshing ode to the sun-ripened oranges, offering a taste that's both invigorating and brimming with health benefits."</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">Rs 189</span>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="foodx10.webp" alt="" height="400" width="500">
+                    <a href="#" class="fas fa-heart"></a>                
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Cold coffee</h3>
+                    <p>"Escape the heat and treat yourself to the ultimate cool-down with our Iced Coffee Bliss. This delightful beverage is a symphony of chilled perfection, blending premium coffee with creamy indulgence and a touch of sweetness."</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">Rs 159</span>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="c5.jpeg" alt="" height="400" width="500">
+                    <a href="#" class="fas fa-heart"></a>                
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Hot Dog</h3>
+                    <p>"Savor the timeless delight of our Signature Classic Hot Dog. Crafted with passion and skill, it's a beloved staple that combines the simplicity of a perfectly grilled sausage with the burst of flavors from premium condiments and fresh ingredients."</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">Rs 389</span>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="c6.png" alt="" height="400" width="500">
+                    <a href="#" class="fas fa-heart"></a>                
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Samosa</h3>
+                    <p>"Experience the rich and authentic flavors of India with our Golden Crispy Samosas. These savory pastries are a culinary journey that encapsulates the essence of Indian spices, flaky pastry, and the warmth of traditional fillings."</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">Rs 55</span>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="food13.jpg" alt="" height="400" width="500">
+                    <a href="#" class="fas fa-heart"></a>                
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Paneer tikka</h3>
+                    <p>"Elevate your dining experience with our Tandoori Paneer Tikka, a tantalizing Indian appetizer that's a feast for the senses. This culinary masterpiece offers a harmony of flavors, combining succulent cubes of paneer cheese with a medley of spices and smoky tandoor char."</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">Rs 425</span>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="food14.jpeg" alt="" height="400" width="500">
+                    <a href="#" class="fas fa-heart"></a>                
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Red sauce pasta</h3>
+                    <p>"Embark on a culinary journey with our Classic Red Sauce Pasta, a timeless Italian favorite that's both comforting and delectable. This dish showcases al dente pasta bathed in a vibrant tomato sauce, a harmony of flavors that's sure to satisfy your cravings."</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">Rs 235</span>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="food15.jpg" alt="" height="400" width="500">
+                    <a href="#" class="fas fa-heart"></a>                
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Cheese balls</h3>
+                    <p>"Elevate your appetizer experience with our Golden Cheese Balls. These delectable bite-sized delights are the perfect fusion of crispy perfection on the outside and a warm, gooey, cheese explosion on the inside, offering a taste that's both comforting and irresistible."</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">Rs 175</span>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="food16.png" alt="" height="400" width="500">
+                    <a href="#" class="fas fa-heart"></a>                
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Choco lava cake</h3>
+                    <p>"Indulge in the ultimate chocolate lover's dream with our Decadent Choco Lava Cake. This dessert masterpiece is a symphony of flavors and textures, featuring a warm, molten chocolate core enveloped by a delicate, moist cake, all topped with a dusting of powdered sugar."</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">Rs 109</span>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="food17.webp" alt="" height="400" width="500">
+                    <a href="#" class="fas fa-heart"></a>                
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Vada pav</h3>
+                    <p>"ransport your taste buds to the bustling streets of Mumbai with our Street-Style Vada Pav, a quintessential Indian snack that's big on flavor and character. This humble yet irresistible dish offers a delectable deep-fried potato fritter encased in a soft bun, bringing together a medley of tastes and textures."</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">Rs 125</span>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="food18.jpeg" alt="" height="400" width="500">
+                    <a href="#" class="fas fa-heart"></a>                
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Dosa</h3>
+                    <p>"Embark on a culinary journey to South India with our South Indian Dosa Delight. A cherished classic, dosa is a thin, crispy, and delectable rice crepe, expertly prepared to perfection. Our dosas come in an array of tempting flavors, each offering a unique twist on this traditional favorite."</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">Rs 199</span>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="food19.jpeg" alt="" height="400" width="500">
+                    <a href="#" class="fas fa-heart"></a>                
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Idli sambhar</h3>
+                    <p>"Experience the soul-soothing flavors of South India with our Traditional Idli Sambar. This classic dish brings together soft, steamed idlis and a tantalizing bowl of aromatic sambar, creating a symphony of taste that's both comforting and satisfying."</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">Rs 129</span>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="food20.jpg" alt="" height="400" width="500">
+                    <a href="#" class="fas fa-heart"></a>                
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Chilli Paneer</h3>
+                    <p>"Elevate your culinary adventure with our Sizzling Chilli Paneer, a tantalizing Indo-Chinese delight that fuses the creaminess of paneer with a burst of bold flavors. This dish offers a tantalizing symphony of spices, making it an unforgettable experience for your taste buds."</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">Rs 249</span>
+                </div>
+
+            </div>
+            
+
+        </div>
+
+
+    </section>
+
+
+    <!--menu section ends-->
+
+    <!--review section starts-->
+
+    <section class="review" id="review">
+
+        <h3 class="sub-heading">Customer's review</h3>
+        <h1 class="heading">What they say?</h1>
+        
+        
+        <div class="swiper-container review-slider">
+
+            <div class="swiper-wrapper">
+
+               <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+
+                <div class="user">
+                    <img src="pooja.jpg" alt="" height="200" width="200">
+                     <div class="user-info">
+                        <h3>Pooja Pal</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+
+                     </div>           
+                </div>
+                <p>I recently had the pleasure of dining at Daily Grill,
+                     and I must say, it was an exceptional experience from start to finish.
+                      From the moment we walked in, we were greeted with warm smiles and a cozy
+                       ambiance that set the tone for a fantastic evening.
+                </p>
+               </div> 
+
+               <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+
+                <div class="user">
+                    <img src="nandini.png" alt="" height="200" width="200">
+                     <div class="user-info">
+                        <h3>Nandini Singh Chauhan</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+
+                     </div>           
+                </div>
+                <p>The food at Daily Grill is nothing short of extraordinary.
+                     Every dish we ordered was a masterpiece of flavor and presentation. 
+                     The menu offered a diverse range of options to cater to various tastes, 
+                     and each dish was prepared with a level of skill and attention to detail that truly impressed me.
+                </p>
+               </div> 
+
+               <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+
+                <div class="user">
+                    <img src="om.png" alt="" height="200" width="200">
+                     <div class="user-info">
+                        <h3>Om Mishra</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+
+                     </div>           
+                </div>
+                <p>I highly recommend Daily Grill to anyone looking for an exceptional dining experience. You won't be disappointed.
+                </p>
+               </div> 
+
+               <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+
+                <div class="user">
+                    <img src="shaurya.png" alt="" height="200" width="200">
+                     <div class="user-info">
+                        <h3>Shaurya Bajpai</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+
+                     </div>           
+                </div>
+                <p>The dessert was the perfect ending to our meal.
+                     I tried the pancakes, and it was heavenly. The sweetness was just right,
+                      and the accompanying scoop of vanilla was a delightful surprise.
+                </p>
+               </div> 
+            </div>
+        </div>
+    </section>
+    <!--review section ends-->
+    <!--order section starts-->
+
+    <section class="order" id="order">
+
+        <h3 class="sub-heading">Order Now</h3>
+        <h1 class="heading">Free and fast</h1>
+
+        <form action="">
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>Your Name:</span>
+                    <input type="text" placeholder="Enter your name:">
+                </div>
+
+                <div class="input">
+                    <span>Contact no.</span>
+                    <input type="text" placeholder="Enter your phone no.:">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>Your Order:</span>
+                    <input type="text" placeholder="Enter food name:">
+                </div>
+
+                <div class="input">
+                    <span>Additional food</span>
+                    <input type="text" placeholder="Extra cravings with food:">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>How much</span>
+                    <input type="number" placeholder="How many orders">
+                </div>
+
+                <div class="input">
+                    <span>Date & Time</span>
+                    <input type="datetime-local">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>Your Address:</span>
+                    <textarea name="" placeholder="Enter your address" id="" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="input">
+                    <span>Your message:</span>
+                    <textarea name="" placeholder="Enter your message" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+            <input type="submit" value="Order now" class="btn">
+        </form>
+    </section>
+    <!--order section ends-->
+
+    <!--footer section starts-->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>locations</h3>
+                <a href="#">India</a>
+                <a href="#">Indonasia</a>
+                <a href="#">America</a>
+                <a href="#">Japan</a>
+                <a href="#">Tokyo</a>
+            </div>
+
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="#">home</a>
+                <a href="#">dishes</a>
+                <a href="#">about</a>
+                <a href="#">menu</a>
+                <a href="#">review</a>
+                <a href="#">order</a>
+                
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">+123-456-7890</a>
+                <a href="#">+111-222-3333</a>
+                <a href="#">+111-222-3333</a>
+                <a href="#">pranjalibajpai7755@gmail.com</a>
+                <a href="#">30484.csaiml@gmail.com</a>
+                <a href="#">Kanpur, india - 400104</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+        </div>
+
+        <div class="credit"> copyright @ 2022 by <span>mr. web designer</span></div>
+    </section>
+    <!--footer section ends-->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!--custom js file link-->
+    <script src="script.js"></script>
+    
+</body>
+</html>
